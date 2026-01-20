@@ -33,7 +33,7 @@ public class RainnySunnyDay extends HttpServlet{
         // doGet(  request,response);
 
         // User API key, Api setup
-        String apiKey= "1726e2bb89b9db7aced72182b720a45b";
+        String apiKey= "Put your own api key";
         // Get the city name
         String city=request.getParameter("city");
         String encodedCity = URLEncoder.encode(city, "UTF-8");
@@ -115,4 +115,5 @@ public class RainnySunnyDay extends HttpServlet{
 }
 
 }
+
 
